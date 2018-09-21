@@ -1,6 +1,6 @@
 import java.util.UUID;
 
-public interface DefaultInterface {
+public interface DefaultMethodInInterface {
 	
 	// just demonstrating a default method in an interface.
 	default public String getUUID() {
