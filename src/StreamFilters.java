@@ -25,6 +25,9 @@ public class StreamFilters {
 		
 		// If a value exists in Optional, print it, otherwise print the default string.
 		System.out.println(optional.orElse("Unable to find Eric."));
+		
+		LambdaExpressions le = new LambdaExpressions();
+		System.out.println(le.compareStringsWithLambda("test1", "test2"));
 
 	}
 
