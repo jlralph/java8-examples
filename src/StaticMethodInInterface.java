@@ -14,5 +14,10 @@ public interface StaticMethodInInterface {
 	static public String getUUID() {
 		return UUID.randomUUID().toString();
 	}
+	
+	/**
+	 * @return String containing the username
+	 */
+	public String getUserName();
 
 }

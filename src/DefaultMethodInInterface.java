@@ -14,4 +14,9 @@ public interface DefaultMethodInInterface {
 	default public String getUUID() {
 		return UUID.randomUUID().toString();
 	}
+	
+	/**
+	 * @return String representing a username. 
+	 */
+	public String getUsername();
 }
